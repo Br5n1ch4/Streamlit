@@ -18,7 +18,7 @@ df = pd.read_csv(
     "https://raw.githubusercontent.com/MinCiencia/Datos-COVID19/master/output/producto46/activos_vs_recuperados.csv")
 
 
-st.dataframe(df.head(10)) visual csv
+#st.dataframe(df.head(10)) visual csv
 seleccion = st.radio("Selecione categoría", ('activos',
                      'recuperados', 'activos y recuperados'))
 if(seleccion == 'activos'):
